@@ -1,20 +1,37 @@
 # Guía de contribución
 
-Gracias por contribuir a Tienda TECSUP. Este proyecto se usa como práctica de colaboración con Git y GitHub.
+Gracias por ayudar a mejorar Tienda TECSUP. Este proyecto es una práctica de HTML, CSS, JavaScript y colaboración con Git y GitHub.
 
-## Cómo contribuir
+## Cómo reportar un error
 
-1. Revisa los Issues existentes o crea uno que describa claramente el problema.
-2. Crea un fork y clónalo en tu computadora.
-3. Parte de la rama `main` actualizada y crea una rama con un nombre descriptivo.
-4. Realiza un cambio acotado y comprueba el resultado abriendo `index.html` en un navegador.
-5. Revisa `git diff` y confirma que solo se incluyan los archivos necesarios.
-6. Registra el cambio con un commit claro y sube la rama a tu fork.
-7. Abre un Pull Request hacia la rama `main` del repositorio original. Explica el cambio y enlaza el Issue relacionado.
+1. Busca en Issues para comprobar si alguien ya reportó el problema.
+2. Si no existe, crea un Issue en el repositorio original.
+3. Escribe un título breve que describa el problema.
+4. Incluye esta información:
+   - **Qué esperabas:** el resultado correcto.
+   - **Qué ocurrió:** el resultado observado.
+   - **Dónde:** archivo y parte del proyecto afectados.
+   - **Cómo reproducirlo:** pasos claros para volver a ver el error.
+5. Añade una captura si ayuda a entender el problema. No publiques credenciales ni datos privados.
 
-## Criterios para los Pull Requests
+## Cómo proponer una mejora
 
-- Mantén cada Pull Request enfocado en un solo problema.
-- Incluye pasos para probar el cambio.
-- Revisa que el diff no contenga archivos ni modificaciones accidentales.
-- No incluyas credenciales, datos privados ni archivos generados que no sean necesarios.
+1. Abre un Issue para describir la mejora y su propósito; revisa antes que no haya una propuesta equivalente.
+2. Haz un fork del repositorio y clónalo en tu computadora.
+3. Actualiza `main` y crea una rama descriptiva para la mejora.
+4. Implementa un cambio enfocado y pruébalo en un navegador.
+5. Revisa el diff, crea un commit con un mensaje claro y publica la rama en tu fork.
+6. Abre un Pull Request hacia `main` del repositorio original. Enlaza el Issue relacionado y explica qué cambiaste y cómo lo probaste.
+
+## Checklist para quien envía un Pull Request
+
+Antes de enviar, confirma lo siguiente:
+
+- [ ] El Pull Request se dirige al repositorio original y a la rama `main`.
+- [ ] El título describe el cambio y la descripción explica el motivo.
+- [ ] Se enlaza el Issue relacionado, si corresponde.
+- [ ] El cambio resuelve un solo problema y parte de una rama creada desde `main` actualizado.
+- [ ] Probé el resultado abriendo `index.html` en un navegador.
+- [ ] Revisé `git diff`; solo aparecen los archivos y líneas necesarios.
+- [ ] Los commits tienen mensajes descriptivos y la rama está publicada en mi fork.
+- [ ] No incluí credenciales, datos privados ni archivos temporales.
